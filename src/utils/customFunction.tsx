@@ -1,0 +1,1 @@
+export const isInArray = (id:String, arrayData: any[]) =>  !!arrayData.find(data => data.id==id)
