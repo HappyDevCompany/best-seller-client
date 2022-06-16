@@ -23,9 +23,9 @@ const Card = ({ id, name, author, cover }: any) => {
   return (
     <Link
       to={`/book/${id}`}
-      className="w-full card-book relative rounded overflow-hidden cursor-pointer hover:shadow-xl hover:scale-110 delay-300 ease-in"
+      className="h-full w-full card-book relative rounded overflow-hidden cursor-pointer hover:shadow-xl hover:scale-110 ease-in"
     >
-      <ShadowGradient className="h-full relative overflow-hidden">
+      <ShadowGradient className="h-full w-full relative">
         <img
           src={cover}
           className="h-full w-full object-cover"

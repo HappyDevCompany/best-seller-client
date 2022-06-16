@@ -32,7 +32,7 @@ const Favorites = () => {
   return (
     <div className="max-w-4xl mx-auto py-10">
       <div className="font-bold text-3xl mb-7">MES FAVORIS</div>
-      <div className="grid grid-cols-5 gap-6">
+      <div className="grid grid-cols-4 gap-6">
         {data.books
           .filter((book: any) => isInArray(book.id, user.favorites))
           .map((book: any) => (
